@@ -10,7 +10,7 @@ RUN apt-get -qq update && apt-get install -qqy lib32gcc1 sudo \
     && groupadd -g 1000 starbound \
     && useradd -M -s /bin/false -u 1000 -g starbound -d /opt/steamcmd starbound \
     && mkdir -p \
-        /opt/starbound/ \
+        /opt/starbound/storage \
         /opt/steamcmd/ \
     && chmod 700 /start /start_starbound
 
