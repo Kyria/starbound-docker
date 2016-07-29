@@ -22,7 +22,7 @@ RUN apt-get -qq update && apt-get install -qqy lib32gcc1 sudo \
 
 EXPOSE 21025 21026
 
-VOLUME ["/opt/steamcmd/", "/opt/starbound/storage"]
+VOLUME ["/opt/steamcmd/", "/opt/starbound/"]
 
 WORKDIR /opt/starbound
 
